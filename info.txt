@@ -1,0 +1,2 @@
+Fogalmak:
+  Állomás (végberendezés/host) - Minden olyan számítógépet állomásnak nevezünk, amely csatlakozik a hálózathoz és közvetlenül részt vesz a hálózati kommunikációban.
