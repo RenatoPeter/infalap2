@@ -1,3 +1,8 @@
 Fogalmak:
   Állomás (végberendezés/host) - Minden olyan számítógépet állomásnak nevezünk, amely csatlakozik a hálózathoz és közvetlenül részt vesz a hálózati kommunikációban.
   Router switch - A közvetítő eszközök az egyes végberendezéseket csatlakoztatják a hálózathoz.
+  A kommunikáció valamilyen átviteli közegen halad a hálózaton
+  Kábelek:
+    Réz
+    Optikai szál
+    Vezeték nélkűli
