@@ -6,3 +6,8 @@ Fogalmak:
     Réz
     Optikai szál
     Vezeték nélkűli
+
+
+További jegyzetek:
+
+Üzenet forrása és a célja között több útvonal is létezik. Ha egy útvonal megszakad, az üzeneteket azonnal egy másik kapcsolaton továbbítják. Redundanciának hívják azt, amikor egy célállomáshoz több út is vezet.
