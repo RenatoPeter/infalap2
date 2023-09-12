@@ -11,3 +11,4 @@ Fogalmak:
 További jegyzetek:
 
 Üzenet forrása és a célja között több útvonal is létezik. Ha egy útvonal megszakad, az üzeneteket azonnal egy másik kapcsolaton továbbítják. Redundanciának hívják azt, amikor egy célállomáshoz több út is vezet.
+A skálázható hálózatot nagyon gyorsan lehet bővíteni az új felhasználók és alkalmazások támogatásához.
