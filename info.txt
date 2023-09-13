@@ -13,3 +13,6 @@ További jegyzetek:
 Üzenet forrása és a célja között több útvonal is létezik. Ha egy útvonal megszakad, az üzeneteket azonnal egy másik kapcsolaton továbbítják. Redundanciának hívják azt, amikor egy célállomáshoz több út is vezet.
 A skálázható hálózatot nagyon gyorsan lehet bővíteni az új felhasználók és alkalmazások támogatásához.
 Az adat-, hang- és videotartalom ugyanazon a hálózaton utazik, a QoS az elsődleges módszer a torlódások kezelésére és a megbízható kézbesítés megvalósítására a felhasználók számára.
+
+Hozzáférési módok:
+Sávon kívüli elérést biztosít. A sávon kívüli azt jelenti, hogy ez egy dedikált felügyeleti csatorna kizárólag az eszköz karbantartására. A konzolport használatának előnye, hogy az eszköz akkor is elérhető, ha semmilyen hálózati szolgáltatás nincs még beállítva, mint például a kezdeti konfiguráció idején. A konzolkapcsolat létrehozásához a terminálemulációs szoftvert futtató számítógépet egy speciális konzolkábellel kell az eszközhöz csatlakoztatni.
