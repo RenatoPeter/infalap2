@@ -16,3 +16,7 @@ Az adat-, hang- és videotartalom ugyanazon a hálózaton utazik, a QoS az első
 
 Hozzáférési módok:
 Sávon kívüli elérést biztosít. A sávon kívüli azt jelenti, hogy ez egy dedikált felügyeleti csatorna kizárólag az eszköz karbantartására. A konzolport használatának előnye, hogy az eszköz akkor is elérhető, ha semmilyen hálózati szolgáltatás nincs még beállítva, mint például a kezdeti konfiguráció idején. A konzolkapcsolat létrehozásához a terminálemulációs szoftvert futtató számítógépet egy speciális konzolkábellel kell az eszközhöz csatlakoztatni.
+
+Secure Shell (SSH):
+
+Sávon belüli módszer. A hálózaton keresztül, virtuális interfész segítségével biztonságos parancssoros kapcsolatot létesítsünk.
