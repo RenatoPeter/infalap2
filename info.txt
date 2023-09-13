@@ -18,5 +18,7 @@ Hozzáférési módok:
 Sávon kívüli elérést biztosít. A sávon kívüli azt jelenti, hogy ez egy dedikált felügyeleti csatorna kizárólag az eszköz karbantartására. A konzolport használatának előnye, hogy az eszköz akkor is elérhető, ha semmilyen hálózati szolgáltatás nincs még beállítva, mint például a kezdeti konfiguráció idején. A konzolkapcsolat létrehozásához a terminálemulációs szoftvert futtató számítógépet egy speciális konzolkábellel kell az eszközhöz csatlakoztatni.
 
 Secure Shell (SSH):
-
 Sávon belüli módszer. A hálózaton keresztül, virtuális interfész segítségével biztonságos parancssoros kapcsolatot létesítsünk.
+
+Telnet:
+A Telnet a parancssor nem biztonságos távoli elérési módja hálózaton keresztül, virtuális interfész segítségével. Az SSH-tól eltérően a Telnet nem kínál biztonságos, titkosított kapcsolatot, használata legfeljebb elkülönített teszthálózaton javasolt.
