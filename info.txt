@@ -22,3 +22,6 @@ Sávon belüli módszer. A hálózaton keresztül, virtuális interfész segíts
 
 Telnet:
 A Telnet a parancssor nem biztonságos távoli elérési módja hálózaton keresztül, virtuális interfész segítségével. Az SSH-tól eltérően a Telnet nem kínál biztonságos, titkosított kapcsolatot, használata legfeljebb elkülönített teszthálózaton javasolt.
+
+Ip
+Az alapértelmezett átjáró annak a routernek az IP-címe, amely az eszköz számára távoli hálózatok és az internet elérését is lehetővé teszi.
