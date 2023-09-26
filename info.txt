@@ -27,3 +27,5 @@ Ip
 Az alapértelmezett átjáró annak a routernek az IP-címe, amely az eszköz számára távoli hálózatok és az internet elérését is lehetővé teszi.
 
 Switch: A kapcsolók egy vagy több virtuális switch interfésszel (SVI) rendelkeznek. VLAN alapértelmezett
+
+Megjegyzés: Kapcsolóknak nincs szükségük IP-címre. Az SVI-hez rendelt IP-cím a switch távoli elérésére szolgál. A switch-nek nincs szüksége IP-címre a feladatainak ellátásához.
