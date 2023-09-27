@@ -29,3 +29,11 @@ Az alapértelmezett átjáró annak a routernek az IP-címe, amely az eszköz sz
 Switch: A kapcsolók egy vagy több virtuális switch interfésszel (SVI) rendelkeznek. VLAN alapértelmezett
 
 Megjegyzés: Kapcsolóknak nincs szükségük IP-címre. Az SVI-hez rendelt IP-cím a switch távoli elérésére szolgál. A switch-nek nincs szüksége IP-címre a feladatainak ellátásához.
+
+Commands:
+Sw-Floor-1# configure terminal
+Sw-Floor-1(config)# interface vlan 1
+Sw-Floor-1(config-if)# ip address 192.168.1.20 255.255.255.0
+Sw-Floor-1(config-if)# no shutdown
+Sw-Floor-1(config-if)# exit
+Sw-Floor-1(config)# ip default-gateway 192.168.1.1
