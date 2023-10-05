@@ -41,3 +41,9 @@ Sw-Floor-1(config)# ip default-gateway 192.168.1.1
 
 Command: ipconfig
 Desc: Az ipconfig paranccsal ellenőrizzük egy PC hálózati beállításait.
+
+Command: ping
+Desc: Végponttól végpontig tartó ellenőrzés.
+
+Command: show ip interface brief
+Desc: Sokszor fogjuk használni.
