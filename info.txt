@@ -37,3 +37,7 @@ Sw-Floor-1(config-if)# ip address 192.168.1.20 255.255.255.0
 Sw-Floor-1(config-if)# no shutdown
 Sw-Floor-1(config-if)# exit
 Sw-Floor-1(config)# ip default-gateway 192.168.1.1
+
+
+Command: ipconfig
+Desc: Az ipconfig paranccsal ellenőrizzük egy PC hálózati beállításait.
