@@ -76,3 +76,9 @@ Desc: Verzió megtekintése.
 
 Command: show ip interface brief
 Desc: ---
+
+Command: copy running-config startup-config
+Desc: Mentés
+
+Command: copy run start
+Desc: Konfig mentés
