@@ -53,3 +53,14 @@ Desc: Domain név feloldás tiltása
 
 Command: clock set 09:14:00 10 oct 2023
 Desc: Idő beállítása
+
+Command: line console 0
+Desc: consoleba belépés
+
+Command: logging synchronous
+Desc: Elválasztja az üzeneteket a rendszer üzenetektől
+
+Commands:
+  - password fasz
+  - login
+Desc: Jelszó megadása a console módban.
