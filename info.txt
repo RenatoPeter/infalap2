@@ -64,3 +64,15 @@ Commands:
   - password fasz
   - login
 Desc: Jelszó megadása a console módban.
+
+Command: service password-encryption
+Desc: Jelszó titkosítása.
+
+Command: line vty 0 15
+Desc: Config line belépés
+
+Command: show version
+Desc: Verzió megtekintése.
+
+Command: show ip interface brief
+Desc: ---
