@@ -47,3 +47,9 @@ Desc: Végponttól végpontig tartó ellenőrzés.
 
 Command: show ip interface brief
 Desc: Sokszor fogjuk használni.
+
+Command: no ip domain-lookup
+Desc: Domain név feloldás tiltása
+
+Command: clock set 09:14:00 10 oct 2023
+Desc: Idő beállítása
