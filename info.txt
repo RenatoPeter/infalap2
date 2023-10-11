@@ -82,3 +82,6 @@ Desc: Mentés
 
 Command: copy run start
 Desc: Konfig mentés
+
+Command: erase startup-config
+Desc: Indító konfig törlése
