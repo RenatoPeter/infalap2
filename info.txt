@@ -30,6 +30,8 @@ Switch: A kapcsolók egy vagy több virtuális switch interfésszel (SVI) rendel
 
 Megjegyzés: Kapcsolóknak nincs szükségük IP-címre. Az SVI-hez rendelt IP-cím a switch távoli elérésére szolgál. A switch-nek nincs szüksége IP-címre a feladatainak ellátásához.
 
+Protocol: Kommunikációhoz szükséges szabályok
+
 Commands:
 Sw-Floor-1# configure terminal
 Sw-Floor-1(config)# interface vlan 1
