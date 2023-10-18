@@ -87,3 +87,12 @@ Desc: Konfig mentés
 
 Command: erase startup-config
 Desc: Indító konfig törlése
+
+Command: delete vlan.dat
+Command: erase startup-config
+Command: reload
+Desc: Switch törlése
+
+Command: erase startup-config
+Command: reload
+Desc: Router törlése
