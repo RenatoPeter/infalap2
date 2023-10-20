@@ -104,3 +104,11 @@ Desc: Router törlése
 3 - Hálózati	     | A hálózati réteg végberendezések közti egyedi adatelemek cseréjét megvalósító szolgáltatásokat biztosít.
 2 - Adatkapcsolati |	Az adatkapcsolati réteg protokolljai adatkeretek továbbítását végzik egy közös közegen elhelyezkedő eszközök között.
 1 - Fizikai	       | A fizikai rétegbeli protokollok mechanikai, elektromos, funkcionális és folyamatbeli módszerekkel foglalkoznak, melyek hálózati eszközről induló vagy oda megérkező bitsorozatokat továbbító fizikai kapcsolatok aktiválását, karbantartását és deaktiválását végzik.
+
+
+
+TCP/IP modell réteg	        Leírás
+4 - Alkalmazási	         | Adatok megjelenítése a felhasználónak, ezen kívül kódolás és párbeszédek vezérlése.
+3 - Szállítási	         | Különböző eszközök közötti kommunikáció különböző hálózatokon keresztül.
+2 - Internet	           | Meghatározza a hálózaton keresztül a legjobb elérési utat.
+1 - Hálózatelérési	     | A hálózatot alkotó hardvereszközök és közegek.
