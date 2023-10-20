@@ -97,10 +97,10 @@ Command: erase startup-config
 Command: reload
 Desc: Router törlése
 
-7 - Alkalmazási	Az alkalmazási réteg folyamat-folyamat közti kommunikációhoz használt protokollokat tartalmaz.
-6 - Megjelenítési	A megjelenítési réteg az alkalmazási rétegbeli szolgáltatások közt átvitt adatok közös ábrázolását valósítja meg.
-5 - Viszony	A viszony réteg a megjelenítési réteg számára biztosít szolgáltatásokat párbeszédek megvalósításához és adatok cseréjéhez.
-4 - Szállítási	A szállítási réteg a végberendezések közti kommunikáció adatainak szegmentálását, szállítását és összeillesztésével kapcsolatos szolgáltatásokat nyújt.
-3 - Hálózati	A hálózati réteg végberendezések közti egyedi adatelemek cseréjét megvalósító szolgáltatásokat biztosít.
-2 - Adatkapcsolati	Az adatkapcsolati réteg protokolljai adatkeretek továbbítását végzik egy közös közegen elhelyezkedő eszközök között.
-1 - Fizikai	A fizikai rétegbeli protokollok mechanikai, elektromos, funkcionális és folyamatbeli módszerekkel foglalkoznak, melyek hálózati eszközről induló vagy oda megérkező bitsorozatokat továbbító fizikai kapcsolatok aktiválását, karbantartását és deaktiválását végzik.
+7 - Alkalmazási    |	Az alkalmazási réteg folyamat-folyamat közti kommunikációhoz használt protokollokat tartalmaz.
+6 - Megjelenítési	 | A megjelenítési réteg az alkalmazási rétegbeli szolgáltatások közt átvitt adatok közös ábrázolását valósítja meg.
+5 - Viszony	       | A viszony réteg a megjelenítési réteg számára biztosít szolgáltatásokat párbeszédek megvalósításához és adatok cseréjéhez.
+4 - Szállítási	   | A szállítási réteg a végberendezések közti kommunikáció adatainak szegmentálását, szállítását és összeillesztésével kapcsolatos szolgáltatásokat nyújt.
+3 - Hálózati	     | A hálózati réteg végberendezések közti egyedi adatelemek cseréjét megvalósító szolgáltatásokat biztosít.
+2 - Adatkapcsolati |	Az adatkapcsolati réteg protokolljai adatkeretek továbbítását végzik egy közös közegen elhelyezkedő eszközök között.
+1 - Fizikai	       | A fizikai rétegbeli protokollok mechanikai, elektromos, funkcionális és folyamatbeli módszerekkel foglalkoznak, melyek hálózati eszközről induló vagy oda megérkező bitsorozatokat továbbító fizikai kapcsolatok aktiválását, karbantartását és deaktiválását végzik.
