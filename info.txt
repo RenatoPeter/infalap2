@@ -112,3 +112,14 @@ TCP/IP modell réteg	        Leírás
 3 - Szállítási	         | Különböző eszközök közötti kommunikáció különböző hálózatokon keresztül.
 2 - Internet	           | Meghatározza a hálózaton keresztül a legjobb elérési utat.
 1 - Hálózatelérési	     | A hálózatot alkotó hardvereszközök és közegek.
+
+
+Az IP-csomagban két IP-cím található:
+  Forrás IP-cím- A küldő eszköz IP-címe, ami a csomag eredeti forrása.
+  Cél IP-cím- A fogadó vagy címzett eszköz IP-címe, ami a csomag végső rendeltetési helye.
+
+Az IP-címnek két része van:
+  Hálózati rész (IPv4) vagy előtag (IPv6)- A cím bal szélső része, azt a hálózatot jelöli, amelynek az IP-cím tagja. Azonos hálózatban levő eszközök IP-címének az alhálózati része ugyanaz.
+  Állomásazonosító rész (IPv4) vagy interfészazonosító (IPv6)- A cím fennmaradó része, a hálózat egy bizonyos eszközét azonosítja. Ez a rész a hálózaton belül egyedileg azonosít egy eszközt vagy interfészt.
+
+MEGJEGYZÉS: Az alhálózati maszk (IPv4) vagy az előtag hossza (IPv6) segítségével különíthető el a cím hálózati és állomásazonosító része.
