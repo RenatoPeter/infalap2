@@ -123,3 +123,7 @@ Az IP-címnek két része van:
   Állomásazonosító rész (IPv4) vagy interfészazonosító (IPv6)- A cím fennmaradó része, a hálózat egy bizonyos eszközét azonosítja. Ez a rész a hálózaton belül egyedileg azonosít egy eszközt vagy interfészt.
 
 MEGJEGYZÉS: Az alhálózati maszk (IPv4) vagy az előtag hossza (IPv6) segítségével különíthető el a cím hálózati és állomásazonosító része.
+
+Amikor az IP-csomagot küldő és fogadó állomások azonos hálózaton vannak, akkor az adatkapcsolati keret közvetlenül a fogadó eszköznek kerül elküldésre. Ethernet hálózaton az adatkapcsolati címet Ethernet MAC-címnek nevezzük (lásd az ábrát).
+
+Amikor az IP-csomag küldője és a címzettje nem ugyanabban a hálózatban található, akkor az adatkapcsolati rétegbeli Ethernet keretet nem lehet közvetlenül a célállomásnak küldeni, mert az a küldő hálózatán közvetlenül nem elérhető. Az Ethernet keretet egy másik készüléknek, a routernek vagy alapértelmezett átjárónak kell elküldeni.
