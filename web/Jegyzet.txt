@@ -398,3 +398,25 @@ a, weboldalakat egy relatív elérési út segítségével kapcsolhatjuk össze.
 Ebben a példában az <a> tag-et egy relatív útvonallal használjuk az aktuális HTML fájl és az ugyanabban a mappában található contact.html fájl összekapcsolására.
 A relatív elérési út egy fájlnév, mely megmutatja a helyi fájl elérési útját (p.: ./index.html) szemben egy abszolút elérési úttal a teljes elérési utat jelenti 
 (pl: https://www.youtube.com/index.html)
+
+=======================================================================================================
+
+Linking to Same page
+Az eddigi összes tartalom egy oldalon elfér egy képernyőn.
+
+Ha azonban nem fér el, akkor lehetőségünk van az oldalon belüli navigációra. Ehhez pedig meg kell adnunk egy cél azonosítót (id).
+<p id="top">Oldal teteje</p>
+<h1 id="bottom">Oldal alja </h1>
+
+Ebben a példában a p elemhez a ,,top", a h1 elemhez pedig a ,,bottom" azonosítót rendeltünk.
+
+Az azonosítónak leíró jellegűnek kell lennie, hogy könnyen megjegyezhető legyen a link célja.
+
+A link egy string, amely a # karaktert és a célelem azonosítóját tartalmazza.
+
+<ol>
+
+<li><a href="top">Teteje</a></li>
+<li><a href="bottom">Alja</a></li>
+
+</ol>
